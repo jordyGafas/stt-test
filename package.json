@@ -38,6 +38,7 @@
     "@emotion/babel-plugin": "^11.10.2",
     "@emotion/babel-preset-css-prop": "^11.10.0",
     "@namics/stylelint-bem": "^7.0.0",
+    "@originjs/vite-plugin-federation": "^1.3.3",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.17.1",
     "@testing-library/jest-dom": "^5.16.5",
