@@ -13,8 +13,8 @@ export const App = () => {
       <header className="app-header">
         <Router>
           <Routes>
-            <Route path="/" element={<div>Home page</div>} />
-            <Route path="/page" element={<div>Some page</div>} />
+            <Route path="/react-poc" element={<div>Home page</div>} />
+            <Route path="/react-poc/page" element={<div>Some page</div>} />
           </Routes>
           <img src={logo} className="app-logo" alt="logo" />
           <br />
