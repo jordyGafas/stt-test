@@ -15,6 +15,7 @@ export const App = () => {
           <Routes>
             <Route path="/react-poc" element={<div>Home page</div>} />
             <Route path="/react-poc/page" element={<div>Some page</div>} />
+            <Route path="/react-poc/page/1" element={<div>Some page / sub</div>} />
           </Routes>
           <img src={logo} className="app-logo" alt="logo" />
           <br />
