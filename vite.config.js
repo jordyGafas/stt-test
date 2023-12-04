@@ -20,7 +20,7 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       // Modules to expose
       exposes: {
-        './App': './src/App.jsx'
+        './App': './src/App'
       },
       shared: ['react']
     }),
