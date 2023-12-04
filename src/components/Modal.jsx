@@ -1,8 +1,8 @@
 export const Modal = ({open, setModalOpen}) => {
   if (!open) return <></>;
   return (
-    <div id="modal" class="modal">
-      <button onClick={()=>setModalOpen(false)} id="closeModal" class="modal-close-btn">
+    <div id="modal" className="modal">
+      <button onClick={()=>setModalOpen(false)} id="closeModal" className="modal-close-btn">
         Close
       </button>
       <br />
