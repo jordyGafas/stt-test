@@ -24,7 +24,7 @@ export default defineConfig({
       exposes: {
         './App': './src/App'
       },
-      shared: ['react']
+      shared: ['react', 'tailwind']
     }),
     topLevelAwait({
       // The export name of top-level await promise for each chunk module
