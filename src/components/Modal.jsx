@@ -9,7 +9,7 @@ export const Modal = ({open, setModalOpen}) => {
       <br />
       <br />
       <br />
-      <h1>Nice modal</h1>
+      <h1 className="">Nice modal</h1>
     </div>
   );
 };
