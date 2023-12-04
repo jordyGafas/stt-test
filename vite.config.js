@@ -6,7 +6,8 @@ import topLevelAwait from 'vite-plugin-top-level-await';
 // https://vitejs.dev/config/
 export default defineConfig({
   buid: {
-    target: 'esnext'
+    target: 'esnext',
+    cssCodeSplit: false
   },
   plugins: [
     react({
