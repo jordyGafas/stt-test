@@ -42,17 +42,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-#modal {
-  position: fixed;
-  width: 50vw;
-  height: 100%;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  background-color:blanchedalmond;
-  color: black;
-  z-index: 90;
-  padding: 20px;
-}
