@@ -1,6 +1,6 @@
 import logo from './assets/images/logo.svg';
 
-function App() {
+export const App = () => {
   return (
     <div className="app">
       <header className="app-header">
@@ -17,6 +17,4 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+};
