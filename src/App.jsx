@@ -5,7 +5,8 @@ import { Modal } from './components/Modal';
 
 import './index.css';
 
-export const App = () => {
+export const App = ({userPrincipal}) => {
+  console.log('userPrincipal', userPrincipal)
   const [modalOpen, setModalOpen] = useState(false);
   const [numberOpened, setNumberOpened] = useState(0);
   return (
