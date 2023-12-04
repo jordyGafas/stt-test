@@ -23,10 +23,10 @@ export const App = () => {
           <br />
           <ul className='flex space-x-20'>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/react-poc">Home</Link>
             </li>
             <li>
-              <Link to="/page">Other Page</Link>
+              <Link to="/react-poc/page">Other Page</Link>
             </li>
           </ul>
           <br />
